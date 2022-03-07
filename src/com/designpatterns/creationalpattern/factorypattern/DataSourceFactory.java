@@ -1,4 +1,4 @@
-package com.designpattern.creationalpattern.factorypattern;
+package com.designpatterns.creationalpattern.factorypattern;
 
 public class DataSourceFactory {
 	

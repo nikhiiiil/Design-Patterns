@@ -1,4 +1,4 @@
-package com.designpattern.creationalpattern.factorypattern;
+package com.designpatterns.creationalpattern.factorypattern;
 
 public enum DBType {
 	POSTGRES("postgres"), ORACLE("oracle"), MYSQL("mysql");
