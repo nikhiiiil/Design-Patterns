@@ -7,11 +7,13 @@ public class Main {
 
 	public static void main(String[] args) {
 		
+		int numOfCores = Runtime.getRuntime().availableProcessors();
+		
 		// Creates a thread pool with only 1 thread
-		ExecutorService executorService = Executors.newSingleThreadExecutor();
+		//ExecutorService executorService = Executors.newSingleThreadExecutor();
 		
 		// Creates a thread pool with 3 threads
-		//ExecutorService executorService = Executors.newFixedThreadPool(3);
+		ExecutorService executorService = Executors.newFixedThreadPool(numOfCores);
 		
 		// Creates a new thread pool with needed threads
 		//ExecutorService executorService = Executors.newCachedThreadPool();
