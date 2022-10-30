@@ -17,6 +17,8 @@ public class DaemonThread {
 		th.start();
 		
 		System.out.println("Main program is finished, JVM Exists ignoring other daemon threads");
+		
+		// Other way to do without setting as daemon thread is System.exit(0); will kill all the threads
 	}
 
 }
