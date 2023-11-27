@@ -1,10 +1,10 @@
-# Design-Patterns
+# Design-Patterns:
 
-## Creational Patterns
+## 1) Creational Patterns
 Designed for class instantiation
 
-## Structural Patterns
+## 2) Structural Patterns
 Designed with regards to the class's structure and composition
 
-## Behavioral Patterns
+## 3) Behavioral Patterns
 Designed for how classes communicate with others
