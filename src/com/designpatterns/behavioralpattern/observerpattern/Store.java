@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.HashMap;
 import java.util.ArrayList;
 
-public class Store implements Observer {
+public class Store implements Publisher {
 	
 	private String name;
 	

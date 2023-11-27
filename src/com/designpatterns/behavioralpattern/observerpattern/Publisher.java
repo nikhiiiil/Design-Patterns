@@ -1,6 +1,6 @@
 package com.designpatterns.behavioralpattern.observerpattern;
 
-public interface Observer {
+public interface Publisher {
 	
 	public void addSubscriber(String item, Subscriber subscriber);
 	
